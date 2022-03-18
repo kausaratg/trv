@@ -1,0 +1,47 @@
+.box {
+  margin: 40px 80px 40px 40px;
+  width: 1300px;
+  height: 550px;
+  border: solid white;
+}
+.text {
+  text-align: center;
+  padding-top: 40px;
+}
+button {
+  width: 10rem;
+  height: 30px;
+  background-color: rgb(236, 55, 85);
+  border: solid rgb(236, 55, 85);
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+button a {
+  text-decoration: none;
+}
+.text h1 {
+  margin-bottom: -2px;
+  font-size: 50px;
+}
+.text h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 700px) {
+  .box {
+    width: 700px;
+    height: 100vh;
+    margin: 0px 0px 0px 0px;
+  }
+  .text {
+    text-align: left;
+    margin-left: -90px;
+  }
+  .text h1 {
+    font-size: 35px;
+  }
+  button {
+    margin-left: 40px;
+  }
+}
